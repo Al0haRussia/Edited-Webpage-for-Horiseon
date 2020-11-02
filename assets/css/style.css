@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color of the webpage*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Contains spacing, font, background color, and main color of top heading*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Contains proper spacing and margins, as well as font and font size of the 3 links*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Contains specific type of display and font size of "hori" and "n" in the word "Horiseon"*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Contains specific color type of "seo" in the word "Horiseon"*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Tells how the list style should be, in this case there should be none*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Tells how the list should display itself, in this case, it should be in a line, with a 25px spacing going to the left*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Contains how the link's text's color and decoration is, in this case there is not decoration*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Contains main image of website, inclading height, width, margin, the image itself, the image's size and position*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Contains spacing on the right hand side of the webpage for text and image*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Contains font size of the paragraphs*/
+p {
+    font-size: 16px;
+}
+
+/*Tell how the text and images should flow, in this case from left to right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Tell how the text and images shoudl flow, in this case from right to left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Tells how the box of Search Engine Optimization's margin, padding, height, font-family, background color, and color should be*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Tells us how big the image should be*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/*Tell us how the font in the heading should be*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Tells how the box of Online Reputation Management's margin, padding, height, font-family, background color, and color should be*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Tells us how big the image should be*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*Tell us how the font in the heading should be*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Tells how the box of Social Media Marketing's margin, padding, height, font-family, background color, and color should be*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Tells us how big the image should be*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Tell us how the font in the heading should be*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Tell us how the box of benefits will be (Margin, padding, adjacentness, float, width, height, font, and backgroundcolor)*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Tell us the margin and color of text in the benefits lead*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Tell us the margin and aligment of text of the benefit lead heading*/
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Tell us the display, margin and width of the image in benefit lead*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Tell us the margin and color of text in benefits brand*/
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Tell us the margin and alignment of text of benefit brand*/
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Tell us the display, margin, and width of image in benefit brand*/
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Tell us margin and color of text in benefits cost*/
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Tell us margin and alignment of text of benefit cost*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Tell us display, margin, and width of image in benefit cost*/
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Tell us padding, adjacentness, font, and alignment of text of the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Tell us size of font of footer's heading*/
+.footer h2 {
+    font-size: 20px;
+}
