@@ -18,7 +18,7 @@ body {
 }
 
 /*Contains proper spacing and margins, as well as font and font size of the 3 links*/
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,14 +38,15 @@ body {
 }
 
 /*Tells how the list style should be, in this case there should be none*/
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /*Tells how the list should display itself, in this case, it should be in a line, with a 25px spacing going to the left*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    font-size: 23px;
 }
 
 /*Contains how the link's text's color and decoration is, in this case there is not decoration*/
@@ -73,7 +74,7 @@ a {
 
 /*Contains font size of the paragraphs*/
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*Tell how the text and images should flow, in this case from left to right*/
