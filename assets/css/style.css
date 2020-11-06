@@ -37,11 +37,6 @@ body {
     color: #d9dcd6;
 }
 
-/*Tells how the list style should be, in this case there should be none*/
-.header nav ul {
-    list-style-type: none;
-}
-
 /*Tells how the list should display itself, in this case, it should be in a line, with a 25px spacing going to the left*/
 .header nav ul li {
     display: inline-block;
