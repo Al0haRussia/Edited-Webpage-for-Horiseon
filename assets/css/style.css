@@ -78,14 +78,14 @@ p {
     margin-right: 25px;
 }
 
-/*Tell how the text and images shoudl flow, in this case from right to left*/
+/*Tell how the text and images should flow, in this case from right to left*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*Tells how the box of Search Engine Optimization's margin, padding, height, font-family, background color, and color should be*/
-.search-engine-optimization {
+/*Tells how all three box's margin, padding, height, font-family, background color, and color should be*/
+.articles-paragraphs {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,55 +94,13 @@ p {
     color: #ffffff;
 }
 
-/*Tells us how big the image should be*/
-.search-engine-optimization img {
+/*Tells us how big the images should be*/
+.articles-paragraphs img {
     max-height: 200px;
 }
 
-/*Tell us how the font in the heading should be*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Tells how the box of Online Reputation Management's margin, padding, height, font-family, background color, and color should be*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Tells us how big the image should be*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*Tell us how the font in the heading should be*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Tells how the box of Social Media Marketing's margin, padding, height, font-family, background color, and color should be*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Tells us how big the image should be*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Tell us how the font in the heading should be*/
-.social-media-marketing h2 {
+/*Tell us how the font in the headings should be*/
+.articles-paragraphs h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -159,57 +117,19 @@ p {
     background-color: #2589bd;
 }
 
-/*Tell us the margin and color of text in the benefits lead*/
-.benefit-lead {
+/*Tell us the margin and color of text in the benefit's side box*/
+.benefit-paragraph {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Tell us the margin and aligment of text of the benefit lead heading*/
-.benefit-lead h3 {
+/*Tell us the margin and aligment of text of the benefit's heading*/
+.benefit-paragraph h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Tell us the display, margin and width of the image in benefit lead*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Tell us the margin and color of text in benefits brand*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Tell us the margin and alignment of text of benefit brand*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Tell us the display, margin, and width of image in benefit brand*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Tell us margin and color of text in benefits cost*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Tell us margin and alignment of text of benefit cost*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Tell us display, margin, and width of image in benefit cost*/
-.benefit-cost img {
+/*Tell us the display, margin and width of the image in benefit's side box*/
+.benefit-paragraph img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
