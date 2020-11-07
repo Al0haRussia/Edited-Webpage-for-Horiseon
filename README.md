@@ -9,3 +9,6 @@ The changes made to the website include:
     - Commented HTML so that code is easier to understand
 
 ![Horiseon](https://user-images.githubusercontent.com/70537665/98398296-96b86100-2015-11eb-870e-f0aaf4d85a10.jpg)
+
+Link to the webpage:
+https://al0harussia.github.io/Edited-Webpage-for-Horiseon/
